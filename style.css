@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    width: 250px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+h3 {
+    margin-top: 3px;
+}
+
+.container {
+    background-color: white;
+    width: 715px;
+    height: 515px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    background-color: #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+
+#login-btn {
+    color: white;
+    background-color: #286CE7;
+    width: 65px;
+    height: 30px;
+    font-size: 14px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+.main-content {
+    background-color: white;
+    display: flex;
+    margin-top: 25px;
+}
+
+.dict-entries-col {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.definition-box-1, .definition-box-2 {
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+}
+
+.word-likes {
+    text-align: center;
+    flex: 1;
+}
+
+.word-likes p {
+    margin-top: 5px;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.like-btn {
+    background-color: #FFDC5A;
+    text-align: center;
+    margin-top: 25px;
+    padding: 8px 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    font-size: 16px;
+}
+
+.definition {
+    font-size: 18.72px;
+    flex: 3;
+    margin-left: 70px;
+}
+
+.add-definition-col {
+    height: 30%;
+    border: 3px solid black;
+    padding: 15px 10px;
+    flex: 1;
+}
+
+#bold {
+    font-weight: 800;
+}
+
+#add-btn {
+    background-color: #7ECB7D;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    margin-top: 20px;
+    padding: 8px 30px;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Sources:
+1. https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow [Box shadows]
+2. https://www.w3schools.com/css/css_form.asp [Adding CSS to form elements]
+3. https://css-tricks.com/almanac/selectors/n/nth-child/ [Selecting the nth child]
+4. https://login.codingdojo.com/m/283/8968/60799 [Styling of text]
+5. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ [Flexbox]
+6. https://login.codingdojo.com/m/283/8968/60802 [Box model] */

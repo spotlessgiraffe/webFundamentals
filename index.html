@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation bar -->
+        <div class="nav-bar">
+            <h1>Dojonary</h1>
+            <input type="text" name="keyword" placeholder="Search">
+            <button id="login-btn" onclick="changeLogout(this)">Login</button>
+        </div>
+        <div class="main-content">
+            <!-- Dictionary entries -->
+            <div class="dict-entries-col">
+                <!-- First definition -->
+                <div class="definition-box-1">
+                    <!-- Word, form, plural, likes -->
+                    <div class="word-likes">
+                        <h1>ninja</h1>
+                        <h3 class="italics">noun</h3>
+                        <p>
+                            <span>Plural: </span>
+                            <span class="italics">ninjas</span>
+                        </p>
+                        <button class="like-btn" onclick="alertLikes()">13 likes</button>
+                    </div>
+                    <!-- Definition text -->
+                    <p class="definition">
+                        A practitioner skilled in the<br>
+                        <a href="#">Japanese</a> art of 
+                        <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+                <!-- Second definition -->
+                <div class="definition-box-2">
+                    <div class="word-likes">
+                        <h1>ninja</h1>
+                        <h3 class="italics">noun</h3>
+                        <p>
+                            <span>Plural: </span>
+                            <span class="italics">ninjas</span>
+                        </p>
+                        <button class="like-btn" onclick="alertLikes()">37 likes</button>
+                    </div>
+                    <p class="definition">
+                        A <a href="#">programmer</a> who breaks<br>
+                        down problems with 
+                        <a href="#">zen</a>-like<br>
+                        focus
+                    </p>
+                </div>
+            </div>
+            <!-- Option to create your own definition -->
+            <div class="add-definition-col">
+                <h2>
+                    <span>Dojonary is defined by </span>
+                    <span id="bold">YOU</span>
+                </h2>
+                <button id="add-btn" onclick="removeBtn(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- Sources:
+1. https://login.codingdojo.com/m/283/8966/60785 [Forms] -->
